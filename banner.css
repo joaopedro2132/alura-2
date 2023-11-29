@@ -34,6 +34,16 @@
     background-position: 1em;
 }
 
-@media screen {
+@media screen and (min-width: 1024px) {
+    .banner__título {
+        font-size: 36px;
+    }
     
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 7em;
+    }
 }
